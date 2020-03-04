@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="user"
+            type="com.nepoapp.aulahojeunip.core.binding.UserDefault" />
+    </data>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:background="#EB3629"
+    android:gravity="center"
+    tools:context=".ui.fragments.LoginFragment">
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:text="@{user.email}"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_margin="8dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:text="@{user.password}"
+        android:hint="******"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/access_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acessar"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

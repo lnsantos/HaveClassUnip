@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "834153130486",
+    "firebase_url": "https://aula-hoje-unip.firebaseio.com",
+    "project_id": "aula-hoje-unip",
+    "storage_bucket": "aula-hoje-unip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834153130486:android:3d001df0f2ed0c16bebfd7",
+        "android_client_info": {
+          "package_name": "com.nepoapp.aulahojeunip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834153130486-u2horck1d8frfusuoe9dq02h6rv8c0jq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nepoapp.aulahojeunip",
+            "certificate_hash": "19d44d716dbdb61f4f78d914f0549952cdf6e77d"
+          }
+        },
+        {
+          "client_id": "834153130486-21he8pnikp45u344ukk7rrk7u7vbav1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1j5WZIKtK8yOswVdwkYAGE2eozMO3OT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834153130486-21he8pnikp45u344ukk7rrk7u7vbav1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
